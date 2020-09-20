@@ -1,3 +1,3 @@
 # rsschool-cv
-https://BladeSv.github.io/rsschool-cv/cv
+https://bladesv.github.io/rsschool-cv
 #### Task Markdown &amp; Git 
