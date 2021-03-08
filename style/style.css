@@ -45,9 +45,11 @@ main {
 .section-1 > h2 {
   margin-left: 20px;
 }
-.section-1 article {
+.section-1 .contacts,
+.section-1 .languages {
   margin-left: 20px;
 }
+
 .section-1 h2 {
   color: #02436bf8;
 }
