@@ -1,7 +1,104 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 15px;
 }
-section {
+h2 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.main-wrapper {
+  width: 768px;
+  margin: auto;
+}
+header {
+  background-color: #006db3;
+  color: white;
+  padding: 20px;
+}
+main {
   display: flex;
+
+  background-color: #039be5;
+}
+.section-1 {
+  background-color: #a3d5ee;
+  width: 400px;
+  color: #039be5;
+}
+.section-1 .phone {
+  color: #039be5;
+}
+.section-1 a:hover {
+  color: #006db3;
+}
+.section-1 figure {
+  margin: 15px 0px;
+  padding: 0px;
+  display: flex;
+}
+.section-1 img {
+  width: 200px;
+  margin: auto;
+}
+.section-1 article {
+  margin-left: 20px;
+}
+.section-1 h2 {
+  color: #02436bf8;
+}
+.contacts li {
+  list-style-type: none;
+}
+.contacts ul {
+  padding: 0;
+}
+
+.section-2 .wrapper {
+  margin: 0px 20px;
+  color: #a3d5ee;
+}
+.section-2 article {
+  border-top: #02436bf8 1px solid;
+}
+.section-2 h2 {
+  color: #02436bf8;
+}
+footer {
+  background-color: #006db3;
+}
+
+footer .rs-logo {
+  width: 100px;
+  margin: 20px;
+}
+
+/* social */
+.fa {
+  padding: 10px 5px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-phone {
+  background: gray;
+  color: black;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
 }
